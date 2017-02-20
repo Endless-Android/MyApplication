@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    tools:context="com.example.administrator.myapplication.MainActivity"
+    android:orientation="horizontal">
+
+    <ImageView
+        android:scaleType="centerCrop"
+        android:layout_marginLeft="5dp"
+        android:id="@+id/imag_dog"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+       android:src="@drawable/dog1"/>
+
+    <TextView
+        android:id="@+id/tx_name"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="旺财"
+        android:textSize="35dp"
+        android:gravity="center"/>
+
+</LinearLayout>
